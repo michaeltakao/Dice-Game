@@ -13,5 +13,10 @@ n2 = 1 + rand() % 6;
 printf("Die 1: %d\n,n1);
 printf("Die 2: %d\n,n2);
 printf("Total value: %d\n",n1 + n2);
+if((n1+n2) >= 7)printf("You won\n");
+else printf("You lost\n");
+
 return 0;
 }
+
+
